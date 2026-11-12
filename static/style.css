@@ -1,0 +1,27 @@
+:root { font-family: system-ui, sans-serif; color: #e9eef8; background: #0c1220; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 980px; margin: 0 auto; padding: 48px 24px; }
+header, .history-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.eyebrow { color: #7fb5ff; font-size: 12px; letter-spacing: .18em; font-weight: 700; }
+h1 { margin: 4px 0 32px; font-size: clamp(30px, 5vw, 44px); }
+h2 { margin: 0; font-size: 16px; font-weight: 600; color: #aebbd0; }
+#status, .history-head span, footer { color: #8492a9; font-size: 13px; }
+#status.live { color: #6de0af; } #status.offline { color: #ff9b9b; }
+.cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+article, .history { background: #151e30; border: 1px solid #26344d; border-radius: 16px; padding: 26px; }
+strong { display: block; font-size: 52px; margin: 15px 0 20px; letter-spacing: -.04em; }
+article p { margin: -15px 0 15px; color: #8492a9; font-size: 14px; }
+.track { height: 9px; background: #2a3549; border-radius: 9px; overflow: hidden; }
+.track div { height: 100%; background: #69a9ff; border-radius: inherit; transition: width .3s; }
+#ram-bar { background: #64dcb1; }
+.history { margin-top: 18px; }
+.legend { display: flex; gap: 18px; margin: 20px 0 10px; font-size: 12px; color: #aebbd0; }
+.legend span::before { content: ''; display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; background: #69a9ff; }
+.legend .ram-dot::before { background: #64dcb1; }
+.chart { height: 180px; display: flex; align-items: stretch; gap: 5px; border-bottom: 1px solid #39465b; background: repeating-linear-gradient(to top, transparent 0, transparent 44px, #26344d 45px); }
+.column { flex: 1; min-width: 2px; display: flex; align-items: end; justify-content: center; gap: 2px; }
+.cpu-line, .ram-line { width: 35%; max-width: 9px; min-height: 1px; border-radius: 3px 3px 0 0; background: #69a9ff; }
+.ram-line { background: #64dcb1; }
+footer { margin-top: 22px; }
+@media (max-width: 600px) { .cards { grid-template-columns: 1fr; } main { padding: 28px 16px; } header { align-items: start; } #status { text-align: right; } .history-head { align-items: start; flex-direction: column; gap: 6px; } }

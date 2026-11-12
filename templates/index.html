@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>System Monitor</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <header><div><p class="eyebrow">LOCAL DASHBOARD</p><h1>System Monitor</h1></div><span id="status">Connecting…</span></header>
+    <section class="cards">
+      <article><h2>CPU usage</h2><strong id="cpu">--%</strong><div class="track"><div id="cpu-bar"></div></div></article>
+      <article><h2>Memory usage</h2><strong id="ram">--%</strong><p id="ram-detail">-- GB of -- GB</p><div class="track"><div id="ram-bar"></div></div></article>
+    </section>
+    <section class="history"><div class="history-head"><h2>Recent usage</h2><span>Last 30 samples · every 5 seconds</span></div><div class="legend"><span class="cpu-dot">CPU</span><span class="ram-dot">Memory</span></div><div id="chart" class="chart" role="img" aria-label="Recent CPU and memory usage"></div></section>
+    <footer>Statistics are measured on the machine running the Python server.</footer>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
