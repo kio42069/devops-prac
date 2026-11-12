@@ -1,0 +1,74 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 6,
+      "minecraft:time_since_rest": 8912,
+      "minecraft:walk_one_cm": 39955,
+      "minecraft:leave_game": 1,
+      "minecraft:walk_under_water_one_cm": 2512,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 80,
+      "minecraft:boat_one_cm": 58671,
+      "minecraft:play_time": 18566,
+      "minecraft:damage_dealt": 160,
+      "minecraft:jump": 191,
+      "minecraft:time_since_death": 18566,
+      "minecraft:interact_with_furnace": 4,
+      "minecraft:sprint_one_cm": 25179,
+      "minecraft:open_chest": 11,
+      "minecraft:sleep_in_bed": 1,
+      "minecraft:fall_one_cm": 6367,
+      "minecraft:total_world_time": 18566,
+      "minecraft:swim_one_cm": 4424,
+      "minecraft:fly_one_cm": 30570,
+      "minecraft:walk_on_water_one_cm": 3975,
+      "minecraft:crouch_one_cm": 478,
+      "minecraft:sneak_time": 256
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 6,
+      "minecraft:crafting_table": 1,
+      "minecraft:oak_pressure_plate": 4,
+      "minecraft:wooden_pickaxe": 14,
+      "minecraft:oak_planks": 1,
+      "minecraft:stone_pickaxe": 62,
+      "minecraft:oak_boat": 1,
+      "minecraft:cobblestone": 11,
+      "minecraft:oak_door": 2
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:smooth_stone": 5,
+      "minecraft:oak_boat": 1,
+      "minecraft:iron_ingot": 1,
+      "minecraft:oak_pressure_plate": 1,
+      "minecraft:shield": 1,
+      "minecraft:stone_pickaxe": 2,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:spruce_slab": 2,
+      "minecraft:oak_leaves": 6,
+      "minecraft:crafting_table": 1,
+      "minecraft:oak_pressure_plate": 3,
+      "minecraft:coal_ore": 41,
+      "minecraft:oak_planks": 1,
+      "minecraft:stone": 22,
+      "minecraft:oak_door": 2
+    },
+    "minecraft:killed": {
+      "minecraft:spider": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:coal": 41,
+      "minecraft:string": 1,
+      "minecraft:oak_pressure_plate": 3,
+      "minecraft:cobblestone": 22,
+      "minecraft:oak_planks": 1,
+      "minecraft:oak_door": 2,
+      "minecraft:crafting_table": 1,
+      "minecraft:spruce_slab": 2
+    }
+  },
+  "DataVersion": 4903
+}
